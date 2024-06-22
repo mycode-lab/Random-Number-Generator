@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-random"></i> Random Number Generator</h1>
+        <input type="number" id="min" placeholder="Minimum value" />
+        <input type="number" id="max" placeholder="Maximum value" />
+        <input type="number" id="quantity" placeholder="Quantity of numbers" />
+        <button onclick="generateNumbers()"><i class="fas fa-cogs"></i> Generate</button>
+        <button onclick="resetFields()"><i class="fas fa-redo"></i> Reset</button>
+        <div class="result" id="result"></div>
+        <div class="history" id="history">
+            <h2>History</h2>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
