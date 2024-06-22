@@ -51,6 +51,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your.email@example.com
-
 Project Link: [https://github.com/mycode-lab/Random-Number-Generator](https://github.com/mycode-lab/Random-Number-Generator)
